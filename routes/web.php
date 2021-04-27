@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-	//return Redirect::to("perguntas.php");
+	return Redirect::to("perguntas.php");
 
 	//include public_path().'\perguntas.php';
 
 	//return response()->file(public_path('perguntas.php'));
 
-    return view('welcome');
+    //return view('welcome');
 });
