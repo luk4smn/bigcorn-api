@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: application/json');
 
 $perguntas  = array(
     '1' => array( // chave única
@@ -414,7 +415,7 @@ $perguntas  = array(
             '1' => "setcookie('pessoa[0]', 'Maria'); setcookie('pessoa[1]', 'João'); setcookie('pessoa[2]', 'José')",
             '2' => "setcookie('pessoa', ['Maria', 'João', 'José']);",
             '3' => "setcookie('pessoa', '['Maria', 'João', 'José']');",
-            '4' => "$nomes = ['Maria', 'João', 'José']; setcookie('pessoa', nomes);",
+            '4' => "nomes = ['Maria', 'João', 'José']; setcookie('pessoa');",
         ),
         'resposta' => '1',
         'dificuldade' => '2',
@@ -642,9 +643,9 @@ $perguntas  = array(
     '57' => array(
     'pergunta' => 'Assinale a forma correta para inserir JavaScript em uma página, por meio de arquivos.',
         'alternativas' => array(
-            '1' => "<scipt src=""file.js""></script>",
-            '2' => "<source src=""file.js""></source>",
-            '3' => "<input src=""file.js""></input>",
+            '1' => 'dentro de uma tag script com o nome do arquivo em src',
+            '2' => 'dentro de uma tag source com o nome do arquivo em src',
+            '3' => 'dentro de uma tag input com o nome do arquivo em src',
             '4' => 'Nenhuma das alternativas',
         ),
         'resposta' => '1',
@@ -1129,3 +1130,6 @@ $perguntas  = array(
 );
 
 echo json_encode($perguntas);
+
+
+?>
