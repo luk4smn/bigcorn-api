@@ -511,7 +511,7 @@ $perguntas  = array(
     'pergunta' => 'Considerando os elementos semânticos da linguagem HTML5, os links devem ficar imediatamente no interior da tag',
         'alternativas' => array(
             '1' => 'navigation',
-            '2' => "nav',
+            '2' => 'nav',
             '3' => 'choose',
             '4' => 'mark',
         ),
