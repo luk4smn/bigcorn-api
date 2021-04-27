@@ -510,10 +510,10 @@ $perguntas  = array(
     '45' => array(
     'pergunta' => 'Considerando os elementos semânticos da linguagem HTML5, os links devem ficar imediatamente no interior da tag',
         'alternativas' => array(
-            '1' => '<navigation>',
-            '2' => '<nav>',
-            '3' => '<choose>',
-            '4' => '<mark>',
+            '1' => 'navigation',
+            '2' => "nav',
+            '3' => 'choose',
+            '4' => 'mark',
         ),
         'resposta' => '2',
         'dificuldade' => '3',
@@ -642,9 +642,9 @@ $perguntas  = array(
     '57' => array(
     'pergunta' => 'Assinale a forma correta para inserir JavaScript em uma página, por meio de arquivos.',
         'alternativas' => array(
-            '1' => '<scipt src="file.js"></script>',
-            '2' => '<source src="file.js"></source>',
-            '3' => '<input src="file.js"></input>',
+            '1' => "<scipt src=""file.js""></script>",
+            '2' => "<source src=""file.js""></source>",
+            '3' => "<input src=""file.js""></input>",
             '4' => 'Nenhuma das alternativas',
         ),
         'resposta' => '1',
