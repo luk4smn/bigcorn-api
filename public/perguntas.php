@@ -1084,7 +1084,7 @@ $perguntas  = array(
     'alternativas' => array(
             '1' => 'short',
             '2' => 'string',
-            '3' => 'float','alternativas'
+            '3' => 'float',
             '4' => 'byte',
         ),
         'resposta' => '2',
