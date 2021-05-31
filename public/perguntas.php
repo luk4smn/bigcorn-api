@@ -58,14 +58,14 @@ $perguntas  = array(
         'dificuldade' => '1',
     ),
     '6' => array(
-        'pergunta' => 'A descrição acima está relacionada ao parâmetro da OO denominado:',
+        'pergunta' => 'O valor decimal para o numero binario 101:',
         'alternativas' => array(
-            '1' => 'Reusabilidade',
-            '2' => 'Modularidade',
-            '3' => 'Herança',
-            '4' => 'Polimorfismo',
+            '1' => '2',
+            '2' => '3',
+            '3' => '4',
+            '4' => '5',
         ),
-        'resposta' => '3',
+        'resposta' => '4',
         'dificuldade' => '2',
     ),
     '7' => array(
@@ -1123,6 +1123,50 @@ $perguntas  = array(
         ),
         'resposta' => '1',
         'dificuldade' => '3',
+    ),
+    '101' => array(
+    'pergunta' => 'O responsável por designar endereços IP variáveis que possibilitam a navegação na Web é o servidor de',
+    'alternativas' => array(
+            '1' => 'DNS',
+            '2' => 'DHCP',
+            '3' => 'TCP',
+            '4' => 'IPV6',
+        ),
+        'resposta' => '2',
+        'dificuldade' => '3',
+    ),
+    '101' => array(
+    'pergunta' => 'São considerados aplicativos de navegação na Internet',
+    'alternativas' => array(
+            '1' => 'browsers',
+            '2' => 'cookies',
+            '3' => 'paths',
+            '4' => 'requests',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '3',
+    ),
+    '102' => array(
+    'pergunta' => 'O objetivo principal deste tipo de memória é armazenar temporariamente os dados de processamento',
+    'alternativas' => array(
+            '1' => 'Cache',
+            '2' => 'ROM',
+            '3' => 'RAM',
+            '4' => 'Flash',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '1',
+    ),
+    '103' => array(
+    'pergunta' => 'O objetivo principal deste tipo de memória é armazenar temporariamente os dados de processamento',
+    'alternativas' => array(
+            '1' => 'Cache',
+            '2' => 'ROM',
+            '3' => 'RAM',
+            '4' => 'Flash',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '1',
     ),
 
 
