@@ -487,18 +487,18 @@ $perguntas  = array(
         'dificuldade' => '4',
     ),
     '43' => array(
-    'pergunta' => 'A principal funcionalidade desse framework é permitir ao PHP a comunicação bidirecional por meio de canais full-duplex sobre um único soquete.',
+    'pergunta' => 'é um framework JAVA',
         'alternativas' => array(
             '1' => 'Symfony',
             '2' => 'Laravel',
             '3' => 'Zend',
-            '4' => 'CakePHP',
+            '4' => 'Spring',
         ),
-        'resposta' => '1',
-        'dificuldade' => '4',
+        'resposta' => '4',
+        'dificuldade' => '1',
     ),
     '44' => array(
-    'pergunta' => 'Em resposta a uma requisição AJAX, o script executando no servidor envia para o cliente, no formato JSON { "nome":"Rodrigo", "id":8723, "v":[-1,2] } como é recebida no campo do objeto XMLHttpRequest?',
+    'pergunta' => 'Em resposta a uma requisição AJAX, um script executando no servidor envia para o cliente, no formato JSON { "nome":"Rodrigo", "id":8723, "v":[-1,2] } Como é recebida no campo do objeto XMLHttpRequest?',
         'alternativas' => array(
             '1' => 'responseString',
             '2' => 'serverResponse',
@@ -520,7 +520,7 @@ $perguntas  = array(
         'dificuldade' => '3',
     ),
     '46' => array(
-    'pergunta' => 'A opção de marcador inoput que permite que essa entrada de dados seja um campo do tipo sim/não, exibindo várias opções, mas que só se aceita que uma delas seja escolhida, é a',
+    'pergunta' => 'A opção de marcador input que permite que a de dados seja um campo do tipo sim/não, exibindo várias opções, mas que só se aceita que uma delas seja escolhida, é a',
         'alternativas' => array(
             '1' => 'Radio',
             '2' => 'Checkbox',
@@ -531,7 +531,7 @@ $perguntas  = array(
         'dificuldade' => '3',
     ),
     '47' => array(
-    'pergunta' => 'A opção que deve ser colocada na tag body para que o arquivo de imagem possa ser utilizado como fundo da tela é',
+    'pergunta' => 'Em HTML a opção que deve ser colocada na tag <body> para que o arquivo de imagem possa ser utilizado como fundo da tela é',
         'alternativas' => array(
             '1' => 'background="imagem.jpg"',
             '2' => 'bg=imagem.jpg',
@@ -542,12 +542,12 @@ $perguntas  = array(
         'dificuldade' => '3',
     ),
     '48' => array(
-    'pergunta' => 'Após essas linhas de código, para chamar a função setSenha da classe Usuário e passar a senha recebida criptografada com algoritmo MD5, utiliza-se a instrução',
+    'pergunta' => 'Em PHP para setar o atrubuto senha do objeto da classe Usuario ($user) e criptografar com algoritmo MD5, utiliza-se a instrução',
         'alternativas' => array(
-            '1' => '$usu->Senha = md5($senha)',
-            '2' => '$usu.setSenha(md5($senha))',
-            '3' => '$usu->Senha = $senha.setCryptography(md5)',
-            '4' => '$usu.setSenha(Cryptography.md5($senha))',
+            '1' => '$user->senha = md5($senha)',
+            '2' => '$user.setSenha(md5($senha))',
+            '3' => '$user->senha = $senha.setCryptography(md5)',
+            '4' => '$user.setSenha(Cryptography.md5($senha))',
         ),
         'resposta' => '1',
         'dificuldade' => '3',
