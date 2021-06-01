@@ -134,17 +134,6 @@ $perguntas  = array(
         'resposta' => '1',
         'dificuldade' => '3',
     ),
-	'12' => array(
-	    'pergunta' => 'No que diz respeito a geração de imagens por RayTracing, qual das aﬁrmações a seguir NÂO é verdadeira?',
-	    'alternativas' => array(
-	        '1' => 'Pode ser facilmente paralelizado',
-	        '2' => 'O número de raios lançados independe do número de objetos da cena.',
-	        '3' => 'Em algumas variações, o cálculo das sombras é feito a parte',
-	        '4' => 'Nenhuma das alternativas acima está correta',
-	    ),
-	    'resposta' => '2',
-	    'dificuldade' => '3',
-    ),
     '13' => array(
     'pergunta' => 'Sobre a técnica de Computação Gráfica "Cohen-Sutherland", qual a sua função?',
 	    'alternativas' => array(
@@ -229,17 +218,6 @@ $perguntas  = array(
 	        '2' => '27',
 	        '3' => '23',
 	        '4' => '15',
-	    ),
-	    'resposta' => '1',
-	    'dificuldade' => '4',
-    ),
-    '20' => array(
-    'pergunta' => 'Conjunto das regras e procedimentos lógicos perfeitamente definidos que levam à solução de um problema em um número finito de etapas',
-	    'alternativas' => array(
-	        '1' => 'algoritmos',
-	        '2' => 'software educacional',
-	        '3' => 'matrizes',
-	        '4' => 'Nenhuma das alternativas',
 	    ),
 	    'resposta' => '1',
 	    'dificuldade' => '4',
@@ -968,7 +946,7 @@ $perguntas  = array(
             '4' => 'IOleObject',
         ),
         'resposta' => '2',
-        'dificuldade' => '2',
+        'dificuldade' => '4',
     ),
     '87' => array(
     'pergunta' => 'Uma das propriedades básicas de uma transação em um banco de dados relacional estabelece que cada transação não deve sofrer interferência de outras transações em execução no banco de dados',
@@ -1135,17 +1113,6 @@ $perguntas  = array(
         'resposta' => '2',
         'dificuldade' => '3',
     ),
-    '101' => array(
-    'pergunta' => 'São considerados aplicativos de navegação na Internet',
-    'alternativas' => array(
-            '1' => 'browsers',
-            '2' => 'cookies',
-            '3' => 'paths',
-            '4' => 'requests',
-        ),
-        'resposta' => '1',
-        'dificuldade' => '3',
-    ),
     '102' => array(
     'pergunta' => 'O objetivo principal deste tipo de memória é armazenar temporariamente os dados de processamento',
     'alternativas' => array(
@@ -1168,6 +1135,395 @@ $perguntas  = array(
         'resposta' => '1',
         'dificuldade' => '1',
     ),
+	'104' => array(
+    'pergunta' => 'Acrônimo usado para determinar desempenho de um computador, especificamente pra calculos cientificos em ponto flutuante',
+    'alternativas' => array(
+            '1' => 'ROCK',
+            '2' => 'FLOP',
+            '3' => 'CLOCK',
+            '4' => 'NOCK',
+        ),
+        'resposta' => '2',
+        'dificuldade' => '1',
+    ),
+	'105' => array(
+    'pergunta' => '1.000.000 byte são:',
+    'alternativas' => array(
+            '1' => '1 Megabyte',
+            '2' => '1 Gigabyte',
+            '3' => '1 Kilobyte',
+            '4' => '1 Mebibyte',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '1',
+    ),
+	'106' => array(
+    'pergunta' => '1.000.000 Bit são:',
+    'alternativas' => array(
+            '1' => '0,001 Megabit',
+            '2' => '0,001 Gigabit',
+            '3' => '0,001 Kilobit',
+            '4' => '0,001 Mebibit',
+        ),
+        'resposta' => '2',
+        'dificuldade' => '1',
+    ),
+	'107' => array(
+    'pergunta' => 'A soma dos binarios 101 e 111 é:',
+    'alternativas' => array(
+            '1' => '111',
+            '2' => '1100',
+            '3' => '1001',
+            '4' => '101',
+        ),
+        'resposta' => '2',
+        'dificuldade' => '1',
+    ),
+	'108' => array(
+    'pergunta' => 'O número decimal 647,75 na base binaria é:',
+    'alternativas' => array(
+            '1' => '1111,11',
+            '2' => '1100,10',
+            '3' => '1010000111,11',
+            '4' => '101000111,11',
+        ),
+        'resposta' => '3',
+        'dificuldade' => '1',
+    ),
+	'109' => array(
+    'pergunta' => 'O número decimal 647,75 na base octal é:',
+    'alternativas' => array(
+            '1' => '1207,6',
+            '2' => '1607,6',
+            '3' => '101207,6',
+            '4' => '11207,6',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '1',
+    ),
+	'110' => array(
+    'pergunta' => 'O número decimal 647,75 na base hexadecimal é:',
+    'alternativas' => array(
+            '1' => '287,C',
+            '2' => '287,A',
+            '3' => '287,E',
+            '4' => '287,D',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '1',
+    ),
+	'111' => array(
+    'pergunta' => ' o número decimal 55 na base binaria é:',
+    'alternativas' => array(
+            '1' => '1100110',
+            '2' => '110111',
+            '3' => '101011',
+            '4' => '10101111',
+        ),
+        'resposta' => '2',
+        'dificuldade' => '1',
+    ),
+	'112' => array(
+    'pergunta' => 'Qual destes frameworks/bibliotecas/plataformas que foram desenvolvidas ou que dependem de JavaScript ou TypeScript?',
+    'alternativas' => array(
+            '1' => 'Node.js, CSS, Java.',
+            '2' => 'React, Node.js, Scala. ',
+            '3' => 'Angular, React, Vue.js.',
+            '4' => 'Angular, Node.js, Java.',
+        ),
+        'resposta' => '3',
+        'dificuldade' => '1',
+    ),
+	'113' => array(
+    'pergunta' => 'Qual destes frameworks/bibliotecas/plataformas que foram desenvolvidas ou que dependem de JavaScript ou TypeScript?',
+    'alternativas' => array(
+            '1' => 'Node.js, CSS, Java.',
+            '2' => 'React, Node.js, Scala. ',
+            '3' => 'Angular, React, Vue.js.',
+            '4' => 'Angular, Node.js, Java.',
+        ),
+        'resposta' => '3',
+        'dificuldade' => '1',
+    ),
+	'114' => array(
+    'pergunta' => 'Qual destes comandos sobem um servidor local em laravel?',
+    'alternativas' => array(
+            '1' => 'php artisan serve',
+            '2' => 'php artisan localhost',
+            '3' => 'php artisan migrate',
+            '4' => 'php artisan start',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '1',
+    ),
+	'115' => array(
+    'pergunta' => 'Qual destes comandos executa as migrations criadas em laravel?',
+    'alternativas' => array(
+            '1' => 'php artisan serve',
+            '2' => 'php artisan localhost',
+            '3' => 'php artisan migrate',
+            '4' => 'php artisan start',
+        ),
+        'resposta' => '4',
+        'dificuldade' => '1',
+    ),
+	'116' => array(
+    'pergunta' => 'Qual destes comandos gera a chave de aplicacao em laravel?',
+    'alternativas' => array(
+            '1' => 'php artisan key:generate',
+            '2' => 'php artisan migrate:fresh',
+            '3' => 'php artisan migrate',
+            '4' => 'php artisan start',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '1',
+    ),
+	'117' => array(
+    'pergunta' => 'Qual destes comandos recria as tabelas de um banco de dados em laravel?',
+    'alternativas' => array(
+            '1' => 'php artisan key:generate',
+            '2' => 'php artisan migrate:fresh',
+            '3' => 'php artisan migrate',
+            '4' => 'php artisan start',
+        ),
+        'resposta' => '2',
+        'dificuldade' => '1',
+    ),
+	'118' => array(
+    'pergunta' => 'Segundo a norma ISO 12207, análise de requisitos do sistema, projeto de arquitetura do software, codificação e testes são atividades constantes do processo',
+    'alternativas' => array(
+            '1' => 'de aquisicao',
+            '2' => 'de fornecimento',
+            '3' => 'de apoio de ciclo de vida',
+            '4' => 'de desenvolvimento',
+        ),
+        'resposta' => '4',
+        'dificuldade' => '1',
+    ),
+	'119' => array(
+    'pergunta' => 'Dentre os itens apresentados a seguir, o que contém um nível padrão da tecnologia de armazenamento de discos RAID é o',
+    'alternativas' => array(
+            '1' => 'SATA 2',
+            '2' => 'RAID 0',
+            '3' => 'SCSI 0:1',
+            '4' => 'SRAID 1/2',
+        ),
+        'resposta' => '2',
+        'dificuldade' => '1',
+    ),
+	'120' => array(
+    'pergunta' => 'Assinale a CORRETA que apresenta somente sistemas de arquivos',
+    'alternativas' => array(
+            '1' => 'NTFS, EXT4, EXT3',
+            '2' => 'FAT32, NTFS, NTP',
+            '3' => 'EXT3, NTOP, SSH',
+            '4' => 'ZFS, SMTP, EXT4',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '1',
+    ),
+	'121' => array(
+    'pergunta' => 'Dentre as soluções apresentadas, todas auxiliam na proteção de um computador, EXCETO:',
+    'alternativas' => array(
+            '1' => 'Firewall',
+            '2' => 'Antivirus',
+            '3' => 'Software de compartilhamento de arquivos',
+            '4' => 'Proteção de redes Wi-Fi',
+        ),
+        'resposta' => '3',
+        'dificuldade' => '1',
+    ),
+	'122' => array(
+	    'pergunta' => 'No que diz respeito a geração de imagens por RayTracing, qual das aﬁrmações a seguir NÂO é verdadeira?',
+	    'alternativas' => array(
+	        '1' => 'Pode ser facilmente paralelizado',
+	        '2' => 'O número de raios lançados independe do número de objetos da cena.',
+	        '3' => 'Em algumas variações, o cálculo das sombras é feito a parte',
+	        '4' => 'Nenhuma das alternativas acima está correta',
+	    ),
+	    'resposta' => '2',
+	    'dificuldade' => '3',
+    ),
+	'123' => array(
+    'pergunta' => 'Conjunto das regras e procedimentos lógicos perfeitamente definidos que levam à solução de um problema em um número finito de etapas',
+	    'alternativas' => array(
+	        '1' => 'algoritmos',
+	        '2' => 'software educacional',
+	        '3' => 'matrizes',
+	        '4' => 'Nenhuma das alternativas',
+	    ),
+	    'resposta' => '1',
+	    'dificuldade' => '4',
+    ),
+	'124' => array(
+    'pergunta' => 'São considerados aplicativos de navegação na Internet',
+    'alternativas' => array(
+            '1' => 'browsers',
+            '2' => 'cookies',
+            '3' => 'paths',
+            '4' => 'requests',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '3',
+    ),
+	'125' => array(
+    'pergunta' => 'é um tipo de código malicioso que torna inacessíveis os dados de um computador. ',
+    'alternativas' => array(
+            '1' => 'ransonware',
+            '2' => 'malware',
+            '3' => 'javascript',
+            '4' => 'Nenuhma das alternativas',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '3',
+    ),
+	'126' => array(
+    'pergunta' => 'É uma combinação de hardware e software que isola a rede interna de uma organização da internet em geral, permitindo que alguns pacotes passem e bloqueando outros, trata-se do',
+    'alternativas' => array(
+            '1' => 'firewall',
+            '2' => 'browser',
+            '3' => 'link',
+            '4' => 'Nenuhma das alternativas',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '3',
+    ),
+	'127' => array(
+    'pergunta' => 'É um Programa que se aloca no computador da vítima. Ele tem o intuito de roubar informações como passwords, logins e quaisquer dados, sigilosos, ou não',
+    'alternativas' => array(
+            '1' => 'keylogger',
+            '2' => 'browser',
+            '3' => 'link',
+            '4' => 'Nenuhma das alternativas',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '3',
+    ),
+	'128' => array(
+    'pergunta' => 'No campo da segurança da informação, para a informação ser considerada segura, a mesma deve atender a 3 quesitos, são eles:',
+    'alternativas' => array(
+            '1' => 'Integridade, disponibilidade e portabilidade',
+            '2' => 'Integridade, disponibilidade e portabilidade',
+            '3' => 'Confidencialidade, integridade e disponibilidade; ',
+            '4' => 'Originalidade, portabilidade e acessibilidade. ',
+        ),
+        'resposta' => '2',
+        'dificuldade' => '3',
+    ),
+	'129' => array(
+    'pergunta' => 'No programa de navegação Microsoft Edge, a função que ajuda a detectar sites de phishing e a proteger contra a instalação de softwares maliciosos é o filtro',
+    'alternativas' => array(
+            '1' => 'InPrivate',
+            '2' => 'SmartScreen',
+            '3' => 'InSider',
+            '4' => 'JavaScript',
+        ),
+        'resposta' => '2',
+        'dificuldade' => '3',
+    ),
+	'130' => array(
+    'pergunta' => 'No programa de navegação Microsoft Edge, a função que ajuda a detectar sites de phishing e a proteger contra a instalação de softwares maliciosos é o filtro',
+    'alternativas' => array(
+            '1' => 'InPrivate',
+            '2' => 'SmartScreen',
+            '3' => 'InSider',
+            '4' => 'JavaScript',
+        ),
+        'resposta' => '2',
+        'dificuldade' => '3',
+    ),
+	'131' => array(
+    'pergunta' => '50 (cinquenta) gigabytes equivalem a:',
+    'alternativas' => array(
+            '1' => '0,05 terabytes',
+            '2' => '500 megabytes.',
+            '3' => '50000 bytes',
+            '4' => '500000 kilobytes',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '3',
+    ),
+	'132' => array(
+    'pergunta' => 'O tipo de rede onde é possível armazenar dados sigilosos por meio do sistema local e pela nuvem, é chamado de:',
+    'alternativas' => array(
+            '1' => 'Rede privada.',
+            '2' => 'Rede alternada',
+            '3' => 'Rede híbrida',
+            '4' => 'Rede pública',
+        ),
+        'resposta' => '3',
+        'dificuldade' => '3',
+    ),
+	'133' => array(
+    'pergunta' => 'São exemplos de serviços de armazenamento em nuvem: ',
+    'alternativas' => array(
+            '1' => 'Google Meet, Mega, OneDrive',
+            '2' => 'Google Drive, Warp Drive, Mega Drive',
+            '3' => 'Dropbox, iCloud, OneNote',
+            '4' => 'OneNote, OneDrive, Mega Drive',
+        ),
+        'resposta' => '3',
+        'dificuldade' => '3',
+    ),
+	'134' => array(
+    'pergunta' => 'Modalidade que usa servidores de armazenamento em Data Centers situados em locais desconhecidos ao usuário',
+    'alternativas' => array(
+            '1' => 'Block Time',
+            '2' => 'Real Time',
+            '3' => 'Cloud Computing',
+            '4' => 'Deep Web',
+        ),
+        'resposta' => '3',
+        'dificuldade' => '2',
+    ),
+	'135' => array(
+    'pergunta' => 'Serviço da Microsoft de armazenamento em nuvem',
+    'alternativas' => array(
+            '1' => 'GDrive',
+            '2' => 'Dropbox',
+            '3' => 'Gigadrive',
+            '4' => 'OneDrive',
+        ),
+        'resposta' => '4',
+        'dificuldade' => '2',
+    ),
+	'136' => array(
+    'pergunta' => 'Serviço da Amazon que disponibiliza uso de servidores em nuvem',
+    'alternativas' => array(
+            '1' => 'AWS',
+            '2' => 'Digital Ocean',
+            '3' => 'Vultr',
+            '4' => 'Azure',
+        ),
+        'resposta' => '1',
+        'dificuldade' => '2',
+    ),
+	'137' => array(
+    'pergunta' => 'Ao gravar dados no OneDrive, o profissional estará utilizando:',
+    'alternativas' => array(
+            '1' => 'Armazenagem em Real Time',
+            '2' => 'Computação On-Line',
+            '3' => 'Armazenagem na nuvem',
+            '4' => 'Block Time Computing',
+        ),
+        'resposta' => '3',
+        'dificuldade' => '2',
+    ),
+	'138' => array(
+    'pergunta' => 'O pré-planejamento  é uma das cerimônias conhecidas da metodologia SCRUM. Por definição, é objetivo deste pré-planejamento',
+    'alternativas' => array(
+            '1' => 'Integração do software entregue na última interação com o produto final',
+            '2' => 'Distribuição dos pacotes de trabalho entre os membros da equipe',
+            '3' => 'Detalhamento, priorização e estimativa de desenvolvimento dos pacotes de trabalho',
+            '4' => 'Levantamento de pontos positivos, negativos e melhorias no processo',
+        ),
+        'resposta' => '3',
+        'dificuldade' => '2',
+    ),
+
+
+
+
 
 
 
